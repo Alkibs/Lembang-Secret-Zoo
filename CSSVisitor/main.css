@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../Img/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.jambuka img {
+  width: 720px;
+  border-radius: 20px;
+  -webkit-box-shadow: 20px 20px 50px black;
+          box-shadow: 20px 20px 50px black;
+  margin-top: -100px;
+}
+.time .hari {
+  margin-right: 10%;
+}
+.konten img {
+  width: 300px;
+  border-radius: 20px;
+  -webkit-box-shadow: 20px 20px 50px black;
+          box-shadow: 20px 20px 50px black;
+}
+
+@media (max-width: 576px) {
+  .jambuka img {
+    width: 90%;
+    margin-top: -50px;
+  }
+  .judul img {
+    width: 75%;
+  }
+  .konten img {
+    margin-bottom: 10%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .jambuka img {
+    width: 90%;
+    
+  }
+  .judul img {
+    
+  }
+  .konten img {
+    margin-bottom: 10%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
