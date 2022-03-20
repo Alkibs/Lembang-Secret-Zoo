@@ -41,3 +41,8 @@ p {
         width: 100%;
     }
   }
+@media (max-width:992px) {
+    .keterangan img {
+        width: 90%;
+    }
+}
