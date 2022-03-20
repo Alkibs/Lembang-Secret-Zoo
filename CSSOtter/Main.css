@@ -34,8 +34,8 @@ p {
     .jumbotron img {
         width: 280px;
     }
-    .text {
-        padding: 0px !important;
+    body .text {
+        padding: 25px !important;
     }
     .keterangan img {
         width: 100%;
