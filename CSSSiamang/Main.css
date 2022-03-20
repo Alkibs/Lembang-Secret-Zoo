@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-image: url(../background.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+h1,h2,h3 {
+    font-family: 'Roboto Slab', serif;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 200%;
+}
+.jumbotron img{
+    border-radius: 20px;
+    -webkit-box-shadow: 20px 20px 50px black;
+          box-shadow: 20px 20px 50px black;
+    width: 320px;
+    margin: auto;
+    display: block;
+}
+.keterangan img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+@media (max-width:576px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .jumbotron img {
+        width: 280px;
+    }
+    body .text {
+        padding: 25px !important;
+    }
+    .keterangan img {
+        width: 100%;
+    }
+  }
+  @media (min-width:992px) {
+      .keterangan img {
+          width: 90%;
+      }
+  }
