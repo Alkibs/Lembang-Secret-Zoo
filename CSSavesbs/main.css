@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  background-image: url(../Img/background.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.sticky-top img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+          transition: 0.2s;
+}
+
+.hero {
+  margin-top: -50px;
+}
+
+.hero img {
+  border-radius: 20px;
+  -webkit-box-shadow: 20px 20px 50px black;
+          box-shadow: 20px 20px 50px black;
+}
+.huruf ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.huruf a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+          transition: 0.2s;
+}
+.gallery {
+  margin-top: 50px;
+}
+
+.gallery img {
+  width: 320px;
+  border-radius: 20px;
+  -webkit-box-shadow: 20px 20px 50px black;
+          box-shadow: 20px 20px 50px black;
+          transition: 0.3s;
+}
+
+.gallery img:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+          transition: 0.3s;
+}
+
+.gallery h4 {
+  padding-top: 10px;
+}
+@media (max-width:576px) {
+  .judul img {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .gallery img {
+    width: 70%;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .gallery img {
+    width: 90%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .gallery img {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
