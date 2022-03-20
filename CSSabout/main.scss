@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/Img/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.sticky-top {
+  img:hover {
+    transform: scale(1.1);
+  }
+}
+
+.logo {
+  img {
+    width: 150px;
+  }
+}
+
+.visimisi {
+  margin-top: -150px;
+}
