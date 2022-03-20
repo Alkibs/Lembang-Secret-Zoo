@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../Img/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.sticky-top img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.judul img {
+  width: 400px;
+}
+
+.konten {
+  margin-top: -100px;
+  height: 700px;
+}
+@media (max-width: 576px) {
+  .logo img {
+    width: 100px;
+  }
+  .judul img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/Img/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.sticky-top {
+  img:hover {
+    transform: scale(1.1);
+  }
+}
+
+.judul {
+  img {
+    width: 400px;
+  }
+}
+
+.konten {
+  margin-top: -100px;
+}
+
+// desktop
