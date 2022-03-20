@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../Img/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.head {
+  position: relative;
+}
+
+.head img {
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+
+.logo {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.tiitle {
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  background-color: white;
+}
+
+.hero {
+  margin-top: -150px;
+}
+
+.hero img {
+  border-radius: 10px;
+  -webkit-box-shadow: 20px 20px 50px black;
+          box-shadow: 20px 20px 50px black;
+  width: 400px;
+}
+
+.hero .hero-text {
+  text-align: center;
+  color: white;
+}
+
+.gallery {
+  margin-top: 50px;
+}
+
+.gallery img {
+  width: 320px;
+  border-radius: 20px;
+  -webkit-box-shadow: 20px 20px 50px black;
+          box-shadow: 20px 20px 50px black;
+          display: block;
+}
+
+.gallery img:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.gallery h4 {
+  padding-top: 10px;
+}
+
+@media (max-width: 576px) {
+  .head img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .hero img {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

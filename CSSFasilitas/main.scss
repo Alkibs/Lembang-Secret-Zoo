@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/Img/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.head {
+  position: relative;
+  img {
+    width: 500px;
+    display: block;
+    margin: auto;
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.tiitle {
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  background-color: white;
+}
+
+// Hero
+.hero {
+  margin-top: -150px;
+  img {
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px black;
+    width: 400px;
+  }
+
+  .hero-text {
+    text-align: center;
+    color: white;
+  }
+}
+// End Hero
+.gallery {
+  margin-top: 50px;
+  img {
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 50px black;
+  }
+  img:hover {
+    transform: scale(0.9);
+  }
+  h4 {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    img {
+      width: 720px;
+    }
+  }
+}
