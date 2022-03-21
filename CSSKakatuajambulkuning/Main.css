@@ -29,7 +29,7 @@ p {
     .jumbotron img {
         width: 280px;
     }
-    .text {
-        padding: 0!important;
+    body .text {
+        padding: 0px 25px !important;
     }
   }
