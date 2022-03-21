@@ -17,8 +17,12 @@ body {
 }
 
 .visimisi {
-  margin-top: -150px;
+  margin-top: -100px;
+
 }
+footer .logo {
+  height: 200px;
+} 
 @media (max-width: 576px) {
   .logo img {
     width: 100px;
@@ -27,7 +31,7 @@ body {
     width: 90%;
   }
   .judul {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
   }
 }
   
