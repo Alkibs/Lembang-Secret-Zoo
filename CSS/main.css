@@ -21,6 +21,9 @@ body {
   right: 0;
   margin-bottom: 3%;
 }
+h1, h2 {
+  font-family: 'Roboto Slab', serif;
+}
 .carousel h1 {
   font-family: 'Roboto Slab', serif;
 }
@@ -43,7 +46,13 @@ body {
   -webkit-box-shadow: 20px 20px 50px black;
           box-shadow: 20px 20px 50px black;
 }
-
+.map .img {
+ margin: auto;
+ display: block;
+}
+.map h2 {
+  color: white;
+}
 @media (max-width: 576px) {
   .carousel-item {
     height: 300px; 
@@ -73,6 +82,9 @@ body {
   .info img {
     width: 100px;
   }
+  .map .img {
+    width: 90%;
+   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
   .carousel-item {
@@ -106,6 +118,9 @@ body {
   .info img {
     width: 100px;
   }
+  .map .img {
+    width: 90%;
+   }
 }
 
 .fa {

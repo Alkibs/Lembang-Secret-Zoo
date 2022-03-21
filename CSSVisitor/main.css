@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -6,7 +9,12 @@ body {
   background-size: cover;
   background-repeat: repeat;
 }
-
+h1,h2,h3 {
+  font-family: 'Roboto Slab', serif;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
 .jambuka img {
   width: 720px;
   border-radius: 20px;
@@ -26,6 +34,15 @@ body {
 .collapse .vis {
   color: orange;
 }
+body .vismap {
+  
+}
+.vismap img {
+  width: 720px;
+  border-radius: 20px;
+  -webkit-box-shadow: 20px 20px 50px black;
+          box-shadow: 20px 20px 50px black;
+}
 
 @media (max-width: 576px) {
   .jambuka img {
@@ -38,6 +55,12 @@ body {
   .konten img {
     margin-bottom: 10%;
   }
+  .vismap {
+
+  }
+  .vismap img {
+    width: 90%;
+  }
 }
 @media (min-width: 576px) and (max-width: 768px) {
   .jambuka img {
@@ -49,6 +72,9 @@ body {
   }
   .konten img {
     margin-bottom: 10%;
+  }
+  .vismap img {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=main.css.map */
