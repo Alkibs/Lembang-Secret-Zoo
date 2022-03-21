@@ -35,7 +35,7 @@ p {
         width: 280px;
     }
     body .text {
-        padding: 25px !important;
+        padding: 0px 25px !important;
     }
     .keterangan img {
         width: 100%;
