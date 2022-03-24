@@ -12,6 +12,7 @@ h1,h2,h3 {
 }
 p {
     font-family: 'Acme', sans-serif;
+    color: white;
     line-height: 200%;
 }
 .jumbotron img{

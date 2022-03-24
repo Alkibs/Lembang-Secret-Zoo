@@ -12,6 +12,7 @@ h1,h2,h3 {
 p {
     font-family: 'Open Sans', sans-serif;
     line-height: 200%;
+    color: white;
 }
 .jumbotron img{
     border-radius: 20px;
