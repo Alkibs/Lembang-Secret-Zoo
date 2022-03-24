@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 body {
     background-image: url(../background.png);
     background-repeat: repeat;
@@ -12,6 +12,7 @@ h1,h2,h3 {
 p {
     font-family: 'Open Sans', sans-serif;
     line-height: 200%;
+    font-family: 'Acme', sans-serif;
 }
 .jumbotron img{
     border-radius: 20px;
