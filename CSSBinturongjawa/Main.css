@@ -10,7 +10,7 @@ h1,h2,h3 {
     font-family: 'Roboto Slab', serif;
 }
 p {
-    font-family: 'Open Sans', sans-serif;
+    color: white;
     line-height: 200%;
     font-family: 'Acme', sans-serif;
 }
