@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/Img/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.info {
+  text-align: center;
+  img {
+    width: 100px;
+  }
+}
+
+.youtube-lg {
+  iframe {
+    width: 720px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    box-shadow: 20px 20px 50px black;
+  }
+}
+
+// Desktop
+@media (max-width: 576px) {
+  .youtube-lg {
+    iframe {
+      width: 400px;
+    }
+  }
+  .info {
+    text-align: center;
+    img {
+      width: 100px;
+    }
+  }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50px;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
