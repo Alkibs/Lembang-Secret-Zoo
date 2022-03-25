@@ -24,6 +24,9 @@ body {
 h1, h2 {
   font-family: 'Roboto Slab', serif;
 }
+body p {
+  font-family: 'Open Sans', sans-serif;
+}
 .carousel h1 {
   font-family: 'Roboto Slab', serif;
 }
@@ -45,6 +48,21 @@ h1, h2 {
   margin: auto;
   -webkit-box-shadow: 20px 20px 50px black;
           box-shadow: 20px 20px 50px black;
+}
+.sahabat h1 {
+  color: white;
+  transition: 0.2s;
+}
+.sahabat h1:hover {
+  color: grey;
+  transition: 0.3s;
+}
+.sahabat a {
+  text-decoration: none;
+}
+.sahabat .gallery img {
+  width: 350px;
+  border-radius: 20px;
 }
 .map .img {
  margin: auto;
@@ -71,6 +89,10 @@ h1, h2 {
   }
   .youtube-lg iframe {
     width: 100%;
+  }
+  .sahabat .gallery img {
+    width: 280px;
+    margin-bottom: 5%;
   }
   .media {
     width: 100%;
@@ -104,6 +126,10 @@ h1, h2 {
   }
   .youtube-lg iframe {
     width: 80%;
+  }
+  .sahabat .gallery img {
+    
+    margin-bottom: 5%;
   }
   .media {
     width: 100%;
@@ -151,6 +177,10 @@ h1, h2 {
   .youtube-lg iframe {
     width: 80%;
   }
+  .sahabat .gallery img {
+    width: 90%;
+    margin-bottom: 5%;
+  }
   .media {
     width: 100%;
   }
@@ -165,7 +195,12 @@ h1, h2 {
     width: 100px;
   }
 }
-
+@media (min-width: 993px) and (max-width: 1122px) {
+  .sahabat .gallery img {
+    width: 90%;
+    margin-bottom: 5%;
+  }
+}
 .fa {
   padding: 20px;
   font-size: 30px;
