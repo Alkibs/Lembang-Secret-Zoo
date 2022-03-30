@@ -59,6 +59,9 @@ body a {
   .news .konten .isi .desc {
     margin-left: 1rem!important;
   }
+  .news .konten .isi .desc h5 {
+  font-size: 0.8em;
+  }
 }
 @media (min-width: 576px) and (max-width: 768px) {
   .judul img {
