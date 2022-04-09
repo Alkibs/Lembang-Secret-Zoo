@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -6,7 +10,12 @@ body {
   background-size: cover;
   background-repeat: repeat;
 }
-
+h1,h2,h3 {
+  font-family: 'Roboto Slab', serif;
+}
+p {
+  font-family: 'Acme', sans-serif;
+}
 .head {
   position: relative;
   margin-bottom: 3em;
@@ -57,7 +66,7 @@ body {
 
 @media (max-width: 576px) {
   .logo img {
-    width: 80px;
+    width: 100px;
   }
   .head img{
     width: 100%;
