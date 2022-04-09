@@ -39,7 +39,9 @@ body {
 .gallery h4 {
   padding-top: 10px;
 }
-
+.container-lg h4 {
+  text-transform: uppercase;
+}
 @media (max-width:576px)  {
   .judul {
     margin-bottom: -75px;
