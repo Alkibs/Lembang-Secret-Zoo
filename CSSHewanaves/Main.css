@@ -24,7 +24,10 @@ p {
     margin: auto;
     display: block;
 }
-
+.keterangan img {
+    width: 100%;
+    margin-bottom: 50px;
+}
 @media (max-width:576px) {
     .jumbotron {
         margin-top: 20px;
