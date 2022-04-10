@@ -9,9 +9,16 @@ body {
     background-size: cover;
     background-repeat: repeat;
   }
-
+  @font-face {
+    font-family: Cocogoose;
+    src: url(../fonts/Cocogoose_Pro-trial[1].ttf);
+  }
+  @font-face {
+    font-family: Candara;
+    src: url(../fonts/Candara.ttf);
+  }
 h1, h2 {
-    font-family: 'Roboto Slab', serif;
+  font-family: 'Cocogoose';
 }
 .sahabat h1 {
 color: white;
