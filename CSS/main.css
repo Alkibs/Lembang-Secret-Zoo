@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+@font-face {
+  font-family: Cocogoose;
+  src: url(../fonts/Cocogoose_Pro-trial[1].ttf);
+}
+@font-face {
+  font-family: Candara;
+  src: url(../fonts/Candara.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -28,10 +38,10 @@ body {
   margin-bottom: 3%;
 }
 h1, h2 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Cocogoose';
 }
 body p {
-  font-family: 'Acme', sans-serif;
+  font-family: 'Candara';
 }
 .carousel h1 {
   font-family: 'Roboto Slab', serif;
