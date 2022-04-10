@@ -9,9 +9,15 @@ body {
   background-size: cover;
   background-repeat: repeat;
 }
+.active {
+
+}
 .carousel-item  {
   height: 32rem;
-  background: #777;
+  background-image: url('../Img/website_lebaran\ 2022\ highlight-07-min.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   position: relative;
 }
 .carousel-item .container {
