@@ -1,3 +1,11 @@
+@font-face {
+  font-family: Cocogoose;
+  src: url(../fonts/Cocogoose_Pro-trial[1].ttf);
+}
+@font-face {
+  font-family: Candara;
+  src: url(../fonts/Candara.ttf);
+}
 body {
   margin: 0;
   padding: 0;
@@ -6,7 +14,9 @@ body {
   background-size: cover;
   background-repeat: repeat;
 }
-
+h1,h2,h3,h4 {
+  font-family: 'Cocogoose';
+}
 .head {
   position: relative;
 }
@@ -58,7 +68,7 @@ body {
   -webkit-box-shadow: 20px 20px 50px black;
           box-shadow: 20px 20px 50px black;
           display: block;
-  margin:auto;
+  margin: auto;
 }
 
 .gallery img:hover {
@@ -84,4 +94,5 @@ body {
   
   }
 }
+
 /*# sourceMappingURL=main.css.map */
