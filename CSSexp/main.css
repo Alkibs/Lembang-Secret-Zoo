@@ -20,7 +20,7 @@ body {
 h1 {
   font-family: 'Cocogoose';
 }
-h2,h3 {
+h2,h3, h5 {
   font-family: 'Candara';
 }
 p {
@@ -73,7 +73,10 @@ p {
           box-shadow: 20px 20px 50px 15px black;
   margin-bottom: 2em;
 }
-
+.konten img {
+  width: 50%;
+  
+}
 @media (max-width: 576px) {
   .logo img {
     width: 100px;
@@ -95,6 +98,27 @@ p {
   .content img {
     width: 90%;
     margin-bottom: 20px;
+  }
+  .konten img {
+    width: 100%; 
+  }
+  .konten .konten-1 {
+    flex-direction: column!important;
+    margin-bottom: 0px!important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .slide img {
+    width: 90%;
+  }
+  .konten img {
+    width: 90%;
+    margin: auto; 
+  }
+  .konten .konten-1 {
+    flex-direction: column!important;
+    margin-bottom: 0px!important;
   }
 }
 
