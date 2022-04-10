@@ -1,3 +1,17 @@
+@font-face {
+  font-family: Cocogoose;
+  src: url(../fonts/Cocogoose_Pro-trial[1].ttf);
+}
+@font-face {
+  font-family: Candara;
+  src: url(../fonts/Candara.ttf);
+}
+h1,h2,h3 {
+  font-family: 'Cocogoose';
+}
+p {
+  font-family: 'Candara';
+}
 body {
   margin: 0;
   padding: 0;
