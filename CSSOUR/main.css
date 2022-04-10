@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Cocogoose;
+  src: url(../fonts/Cocogoose_Pro-trial[1].ttf);
+}
+@font-face {
+  font-family: Candara;
+  src: url(../fonts/Candara.ttf);
+}
+
 body {
   background-image: url(../background.png);
   background-position: center;
@@ -14,7 +23,9 @@ body {
 .hero {
   margin-top: -100px;
 }
-
+.container h4 {
+  font-family: 'Cocogoose';
+}
 .hero img {
   border-radius: 20px;
   -webkit-box-shadow: 20px 20px 50px black;
