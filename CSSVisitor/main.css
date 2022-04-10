@@ -17,8 +17,11 @@ body {
   background-size: cover;
   background-repeat: repeat;
 }
-h1,h2,h3 {
+h1,h2 {
   font-family: 'Cocogoose';
+}
+h3, h4 {
+  font-family: 'Candara';
 }
 p {
   
