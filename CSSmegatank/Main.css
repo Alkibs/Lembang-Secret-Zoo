@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@font-face {
+  font-family: Cocogoose;
+  src: url(../fonts/Cocogoose_Pro-trial[1].ttf);
+}
+@font-face {
+  font-family: Candara;
+  src: url(../fonts/Candara.ttf);
+}
 body {
   background-image: url(../Img/background.png);
   background-position: center;
@@ -21,7 +29,7 @@ body {
   margin-top: -50px;
 }
 h1, h4 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Cocogoose';
 }
 .hero img {
   border-radius: 20px;
