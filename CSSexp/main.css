@@ -47,10 +47,10 @@ p {
 }
 
 .slide img {
-  width: 70%;
+  width: 65%;
   display: block;
   margin: auto;
-  border-radius: 20px;
+  border-radius: 27px;
   -webkit-box-shadow: 20px 20px 50px 15px black;
           box-shadow: 20px 20px 50px 15px black;
 }
