@@ -79,7 +79,6 @@ body p {
 }
 .sponsor img {
   width: 50%;
-  height: 150px;
 }
 @media (max-width: 576px) {
   .carousel-item {
