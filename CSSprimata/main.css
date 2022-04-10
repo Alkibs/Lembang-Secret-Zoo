@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 body {
   background-image: url(../Img/background.png);
   background-position: center;
@@ -13,7 +14,9 @@ body {
 .hero {
   margin-top: -50px;
 }
-
+h1, h4 {
+  font-family: 'Roboto Slab', serif;
+}
 .hero img {
   border-radius: 20px;
   -webkit-box-shadow: 20px 20px 50px black;
