@@ -77,6 +77,17 @@ p {
   width: 50%;
   
 }
+.second-konten img {
+  width: 30%;
+}
+.third-content .judul {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+.third-content .isi-third img {
+  width: 48%;
+}
 @media (max-width: 576px) {
   .logo img {
     width: 100px;
@@ -105,6 +116,22 @@ p {
   .konten .konten-1 {
     flex-direction: column!important;
     margin-bottom: 0px!important;
+  }
+  .second-konten {
+    flex-direction: column;
+  }
+  .second-konten img {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2em;
+  }
+  .third-content .isi-third {
+    flex-direction: column;
+  }
+  .third-content .isi-third img {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2em;
   }
 }
 
