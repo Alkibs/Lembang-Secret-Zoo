@@ -21,6 +21,10 @@ h2 {
     font-family: 'Candara';
     font-style: italic;
 }
+h4 {
+    color: white;
+    text-align: left;
+}
 p {
     font-family: 'Candara';
     line-height: 200%;
