@@ -35,7 +35,7 @@ body {
 
 }
 footer .logo {
-  height: 250px;
+  height: 600px;
 } 
 @media (max-width: 576px) {
   .logo img {
