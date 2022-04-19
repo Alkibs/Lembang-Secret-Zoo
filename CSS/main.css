@@ -91,6 +91,9 @@ body p {
   width: 50%;
 }
 @media (max-width: 576px) {
+  .logotop {
+    margin-bottom: -50px;
+  }
   .carousel-item {
     height: 300px; 
   }
