@@ -103,7 +103,7 @@ h1,h2,h3,h4 {
 @media (max-width: 576px) {
   .head img {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: -75px;
   }
   .hero img {
     width: 90%;
