@@ -22,6 +22,9 @@ body {
 .active {
 
 }
+.carousel {
+  display: none;
+}
 .carousel-item  {
   height: 32rem;
   background-image: url('../Img/website_lebaran\ 2022\ highlight-07-min.png');
